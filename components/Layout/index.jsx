@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Navbar from "components/Navbar";
 
 const Layout = ({
 	title = "Puri Bahasa Indonesia",
@@ -16,6 +17,8 @@ const Layout = ({
 				<link rel="shortcut icon" href="imgs/favicon.ico" />
 				<link rel="shortcut icon" href="/images/favicon.ico" />
 			</Head>
+
+			<Navbar />
 
 			<div>{children}</div>
 		</>

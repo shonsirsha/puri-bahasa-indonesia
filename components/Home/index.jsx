@@ -1,4 +1,4 @@
-import Jumbotron from "components/Jumbotron";
+import Jumbotron from "components/Jumbotron/index";
 import React from "react";
 
 const Home = () => {
