@@ -6,8 +6,16 @@ module.exports = {
 	],
 	theme: {
 		extend: {
+			colors: {
+				red: {
+					550: "#de3a3a",
+				},
+			},
 			fontFamily: {
 				sans: ["Plus Jakarta Sans"],
+			},
+			backgroundImage: {
+				"jumbotron-pattern": "url('/img/jumbotron-pic.jpg')",
 			},
 		},
 	},

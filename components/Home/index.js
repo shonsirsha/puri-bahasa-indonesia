@@ -1,9 +1,10 @@
+import Jumbotron from "components/Jumbotron";
 import React from "react";
 
 const Home = () => {
 	return (
 		<div>
-			<p className="font-semibold">Puri Bahasa Indonesia</p>
+			<Jumbotron />
 		</div>
 	);
 };
