@@ -10,6 +10,9 @@ module.exports = {
 				red: {
 					550: "#de3a3a",
 				},
+				gray: {
+					75: "#F6F6F6",
+				},
 			},
 			fontFamily: {
 				sans: ["Plus Jakarta Sans"],
