@@ -1,6 +1,4 @@
-import React from "react";
-
-const MapMarker = ({ size = 6 }) => {
+const MapMarker = ({ size = 4 }) => {
 	return (
 		<>
 			<svg

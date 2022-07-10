@@ -1,6 +1,7 @@
-import React from "react";
+import { useState } from "react";
 import Head from "next/head";
 import Navbar from "components/Navbar";
+import Menu from "components/Menu";
 
 const Layout = ({
 	title = "Puri Bahasa Indonesia",
@@ -8,6 +9,7 @@ const Layout = ({
 	keywords = "indonesian school, indonesian language school, puri bahasa, puri indonesian, indonesian language learning, indonesian classes, indonesian language training",
 	children,
 }) => {
+	const [menuOpened, setMenuOpened] = useState(false);
 	return (
 		<>
 			<Head>
@@ -18,9 +20,11 @@ const Layout = ({
 				<link rel="shortcut icon" href="/images/favicon.ico" />
 			</Head>
 
-			<Navbar />
-
-			<div>{children}</div>
+			<div className="relative">
+				<Menu opened={menuOpened} onMenuOpened={setMenuOpened} />
+				<Navbar onMenuOpened={setMenuOpened} />
+				<div>{children}</div>
+			</div>
 		</>
 	);
 };

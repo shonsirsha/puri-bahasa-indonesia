@@ -2,14 +2,13 @@ import BareLink from "components/BareLink";
 import MainButton from "components/Buttons/MainButton";
 import SecondaryButton from "components/Buttons/SecondaryButton";
 import RightArrow from "components/Icons/RightArrow";
-import React from "react";
-
+import Container from "components/Container";
 const Jumbotron = () => {
 	return (
 		<div className="flex min-h-[400px]">
 			<div className="w-[65%] flex-none bg-jumbotron-pattern bg-center bg-no-repeat bg-cover">
-				<div className="backdrop-blur-sm bg-[#696969]/50 min-h-full flex">
-					<div className="flex flex-col container px-[80px] min-h-full justify-center">
+				<div className="backdrop-blur-sm bg-[#696969]/50 min-h-full flex justify-center">
+					<Container>
 						<h1 className="font-bold text-5xl text-white">
 							Puri Bahasa Indonesia
 						</h1>
@@ -43,7 +42,7 @@ const Jumbotron = () => {
 								/>
 							</div>
 						</div>
-					</div>
+					</Container>
 				</div>
 			</div>
 			<div className="w-[35%] flex-none bg-red-550 flex items-center justify-between p-6 px-10">

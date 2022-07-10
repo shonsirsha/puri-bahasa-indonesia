@@ -1,7 +1,6 @@
 import Email from "components/Icons/Email";
 import MapMarker from "components/Icons/MapMarker";
 import Phone from "components/Icons/Phone";
-import React from "react";
 
 const TopList = () => {
 	return (

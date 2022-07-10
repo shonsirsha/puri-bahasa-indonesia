@@ -1,5 +1,3 @@
-import React from "react";
-
 const Phone = ({ size = 6 }) => {
 	return (
 		<>
