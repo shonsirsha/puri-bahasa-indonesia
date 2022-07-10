@@ -1,7 +1,9 @@
-const Container = ({ className = "", children }) => {
+const Container = ({ className = "", fluid = true, children }) => {
 	return (
 		<div
-			className={`flex flex-col container px-[80px] min-h-full justify-center max-w-full ${className}`}
+			className={`flex flex-col container px-[80px] min-h-full justify-center ${
+				fluid && `max-w-full`
+			} ${className}`}
 		>
 			{children}
 		</div>
