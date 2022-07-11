@@ -4,8 +4,8 @@ import Phone from "components/Icons/Phone";
 
 const TopList = () => {
 	return (
-		<div className="flex px-3 py-4 bg-red-550 w-100 items-center justify-between">
-			<div className="text-xs text-white font-semibold mr-5 hidden sm:flex">
+		<div className="flex flex-col md:flex-row px-3 py-4 bg-red-550 w-100 items-center justify-between">
+			<div className="text-xs text-white font-semibold mr-5 flex mb-3 md:mb-0">
 				<MapMarker size={4} />
 				<a
 					href="https://goo.gl/maps/MGxED6G1uqRSGQVE6"
