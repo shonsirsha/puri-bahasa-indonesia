@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 import CardWithIcon from "components/CardWithIcon";
 import Container from "components/Container";
 import BriefCase from "components/Icons/Briefcase";
@@ -63,6 +64,14 @@ const PageDetail = () => {
 					large
 				/>
 			</div>
+
+			<p className="font-semibold mt-3">
+				Please, do not hesitate to{" "}
+				<a href="/#contact-us" target={"_blank"} rel="norefferer noopener">
+					<u>contact us</u>
+				</a>{" "}
+				for further information.
+			</p>
 		</Container>
 	);
 };
