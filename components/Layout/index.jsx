@@ -2,6 +2,7 @@ import { useState } from "react";
 import Head from "next/head";
 import Navbar from "components/Navbar";
 import Menu from "components/Menu";
+import Footer from "components/Footer";
 
 const Layout = ({
 	title = "Puri Bahasa Indonesia",
@@ -24,6 +25,7 @@ const Layout = ({
 				<Menu opened={menuOpened} onMenuOpened={setMenuOpened} />
 				<Navbar onMenuOpened={setMenuOpened} />
 				<div>{children}</div>
+				<Footer />
 			</div>
 		</>
 	);

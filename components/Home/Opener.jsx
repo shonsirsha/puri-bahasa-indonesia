@@ -13,36 +13,40 @@ const Opener = () => {
 					within its socio-cultural setting.
 				</p>
 
-				<div className="flex mt-8 h-[164px]">
-					<TileLink text="School" href={"/school"} className="w-[33.3%]" />
+				<div className="flex mt-8 flex-col md:flex-row md:h-[164px]">
+					<TileLink text="School" href={"/school"} className="w-[100%]" />
 					<TileLink
 						text="Activities"
-						className="w-[33.3%] mx-4"
+						className="w-[100%] my-4 md:mx-4 md:my-0"
 						href="/activities"
 					/>
 					<TileLink
 						text="Courses & Fees"
 						href="/courses-and-fees"
-						className="w-[33.3%]"
+						className="w-[100%]"
 					/>
 				</div>
 
-				<div className="flex mt-4 h-[164px]">
+				<div className="flex mt-4 flex-col md:flex-row md:h-[164px]">
 					<TileLink
 						text="Accommodations"
 						href={"/accommodations"}
-						className="w-[30%] mr-4"
+						className="w-[100%] md:w-[30%] mb-4 md:mr-4 md:mb-0"
 					/>
 					<TileLink
 						text="Visa Services"
 						href="/visa-services"
-						className="w-[15%] mr-4"
+						className="w-[100%] md:w-[20%] mb-4 md:mr-4 md:mb-0"
 					/>
-					<TileLink text="Register" href="/register" className="w-[25%] mr-4" />
+					<TileLink
+						text="Register"
+						href="/register"
+						className="w-[100%] md:w-[20%] mb-4 md:mr-4 md:mb-0"
+					/>
 					<TileLink
 						text="Students' Reviews"
 						href={"/reviews"}
-						className="w-[30%]"
+						className="w-[100%] md:w-[30%]"
 					/>
 				</div>
 			</Container>

@@ -5,12 +5,12 @@ import Phone from "components/Icons/Phone";
 const TopList = () => {
 	return (
 		<div className="flex px-3 py-4 bg-red-550 w-100 items-center justify-between">
-			<div className="flex text-xs text-white font-semibold mr-5">
+			<div className="text-xs text-white font-semibold mr-5 hidden sm:flex">
 				<MapMarker size={4} />
 				<a
 					href="https://goo.gl/maps/MGxED6G1uqRSGQVE6"
 					target="_blank"
-					className="ml-1 underline"
+					className="ml-1 underline "
 					rel="noreferrer noopener"
 				>
 					Jl. Masjid 24, Yogyakarta 55113, Indonesia
