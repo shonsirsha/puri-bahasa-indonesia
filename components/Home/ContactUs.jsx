@@ -4,7 +4,7 @@ import Container from "components/Container";
 
 const ContactUs = () => {
 	return (
-		<div className="relative">
+		<div className="relative" id="contact-us">
 			<div className="bg-gray-75 absolute w-full h-[50%] bottom-0"></div>
 			<Container>
 				<div className="flex py-[48px]">
