@@ -12,7 +12,7 @@ import World from "components/Icons/World";
 
 const PageDetail = () => {
 	return (
-		<Container className="py-[32px] bg-gray-75">
+		<Container className="py-[48px] bg-gray-75">
 			<CardWithIcon
 				text={
 					<>

@@ -19,6 +19,8 @@ module.exports = {
 			},
 			backgroundImage: {
 				"jumbotron-pattern": "url('/img/jumbotron-pic.jpg')",
+				visa: "url('/img/visa.jpg')",
+				activities: "url('/img/activities.jpeg')",
 			},
 		},
 	},
