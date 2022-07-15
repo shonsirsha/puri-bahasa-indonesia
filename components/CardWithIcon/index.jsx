@@ -11,7 +11,7 @@ const CardWithIcon = ({
 			} items-center bg-white drop-shadow-md ${className}`}
 		>
 			<div className={`text-red-550 ${large ? `mr-5` : `mr-3`}`}>{svgIcon}</div>
-			<p className="text-lg">{text}</p>
+			<p className="text-md">{text}</p>
 		</div>
 	);
 };

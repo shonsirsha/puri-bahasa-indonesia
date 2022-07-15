@@ -21,6 +21,7 @@ module.exports = {
 				"jumbotron-pattern": "url('/img/jumbotron-pic.jpg')",
 				visa: "url('/img/visa.jpg')",
 				activities: "url('/img/activities.jpeg')",
+				yogyakarta: "url('/img/borobudur.png')",
 			},
 		},
 	},
