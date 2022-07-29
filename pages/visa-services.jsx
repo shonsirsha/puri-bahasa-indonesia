@@ -5,7 +5,7 @@ import PageDetail from "components/VisaServices/PageDetail";
 const Visa = () => {
 	const fiftyFiftyContent = (
 		<p className="mt-3">
-			<b>For entry to Indonesia</b>, your passport must be valid for at least 6
+			<b>For entry to Indonesia</b>, your passport must be valid for at least 18
 			months from the date of entry, even if you are staying only a month.
 		</p>
 	);

@@ -26,15 +26,12 @@ const PageDetail = () => {
 				className="mb-10"
 			/>
 
-			<div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 ">
+			<div className="grid grid-cols-1 gap-4 lg:grid-cols-2 ">
 				<CardWithIcon
 					text="6 month Social-Cultural Visa"
 					svgIcon={<GlobeVisa />}
 				/>
 				<CardWithIcon text="1 Year Student Visa" svgIcon={<GradCap />} />
-				<CardWithIcon text="Working Visas" svgIcon={<BriefCase />} />
-				<CardWithIcon text="Business Visas" svgIcon={<UserGroup />} />
-				<CardWithIcon text="Research Visas" svgIcon={<MagnifyingGlass />} />
 			</div>
 
 			<div className="grid grid-cols-1 gap-4 lg:grid-cols-2 mt-16">
@@ -55,9 +52,8 @@ const PageDetail = () => {
 					text={
 						<>
 							The visa arrangement process <b>takes a relatively short time</b>:
-							a six month Social-Cultural Visa takes less than a week to
-							process, while the others{" "}
-							<b>take approximately one and a half months.</b>
+							a six month Social-Cultural Visa{" "}
+							<b>takes less than a week to process.</b>
 						</>
 					}
 					svgIcon={<Calendar big />}
@@ -65,9 +61,14 @@ const PageDetail = () => {
 				/>
 			</div>
 
-			<p className="font-semibold mt-3">
+			<p className="font-semibold mt-5">
 				Please, do not hesitate to{" "}
-				<a href="/#contact-us" target={"_blank"} rel="norefferer noopener">
+				<a
+					href="/#contact-us"
+					className="text-red-550"
+					target={"_blank"}
+					rel="norefferer noopener"
+				>
 					<u>contact us</u>
 				</a>{" "}
 				for further information.

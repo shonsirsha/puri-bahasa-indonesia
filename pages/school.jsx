@@ -18,8 +18,7 @@ const School = () => {
 			<p className="mt-2">
 				<strong>Puri Bahasa Indonesia</strong> prides ourselves on the warm and
 				friendly atmosphere at our school and is committed to looking after our
-				students
-				{"'"} welfare during their visit.
+				students.
 			</p>
 		</div>
 	);

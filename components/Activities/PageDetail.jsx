@@ -45,7 +45,7 @@ const PageDetail = () => {
 									work shop.
 								</b>{" "}
 								Students may experience{" "}
-								<b>to make silver jewellery if they wish.</b> <br />
+								<b>to make batik or silver jewellery if they wish.</b> <br />
 								<br /> Students also may visit local business centres namely{" "}
 								<b>
 									the traditional market, local newspaper company and batik work
@@ -87,8 +87,8 @@ const PageDetail = () => {
 						icon={<RightArrow />}
 					/>
 					<MainButton
-						text="See Our Classes"
-						href="/classes"
+						text="See Our Courses"
+						href="/courses-and-fees"
 						outlined
 						icon={<RightArrow />}
 						className="max-w-[320px] w-full"

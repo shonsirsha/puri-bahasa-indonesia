@@ -23,20 +23,20 @@ const Jumbotron = () => {
 						<div className="w-100 max-w-[380px] mt-6 flex flex-col md:mt-4">
 							<MainButton
 								className="text-left w-100 "
-								text="Check out our classes!"
+								text="Check out our courses!"
 								href="/visa"
 								icon={<RightArrow />}
 							/>
 							<div className="flex flex-col md:flex-row mt-4">
 								<SecondaryButton
 									className="text-left w-[100%] mb-4 mr-3 md:w-[50%] xl:mb-0 md:mb-0"
-									text="In-person classes"
+									text="In-person courses"
 									href="/visa"
 									icon={<RightArrow />}
 								/>{" "}
 								<SecondaryButton
 									className="text-left w-[100%] md:w-[50%]"
-									text="Online classes"
+									text="Online courses"
 									href="/visa"
 									icon={<RightArrow />}
 								/>
@@ -49,7 +49,7 @@ const Jumbotron = () => {
 				<div className="hidden sm:flex sm:flex-col">
 					<BareLink text="Home" className="mb-3" active />
 					<BareLink text="The School" className="mb-3" />
-					<BareLink text="Classes" className="mb-3" />
+					<BareLink text="Courses & Fees" className="mb-3" />
 					<BareLink text="Sample Lessons" className="mb-3" />
 					<BareLink text="Register" className="mb-3" />
 					<BareLink text="Contact Us" />
