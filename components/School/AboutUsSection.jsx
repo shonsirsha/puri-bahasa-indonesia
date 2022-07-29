@@ -7,7 +7,7 @@ const AboutUsSection = () => {
 		<div className="flex flex-col">
 			<p>
 				<b>Puri Bahasa Indonesia</b> is an independent school located in{" "}
-				<a className="underline italic text-red-550">
+				<a href="#yogyakarta" className="underline italic text-red-550">
 					Yogyakarta, in Central Java,
 				</a>{" "}
 				a very historic city, considered to be the cultural and artistic
@@ -18,7 +18,9 @@ const AboutUsSection = () => {
 				The educational philosophy and academic approach of Puri Bahasa
 				Indonesia is based on the concept that a language, i.e. {`"`}Bahasa
 				Indonesia{`"`} is best learnt as a second language within its
-				socio-cultural setting.
+				socio-cultural setting. <b>Puri Bahasa Indonesia</b> applies
+				communicative approach methods and the materials are tailored to
+				students{"'"} needs and purposes in the Indonesian training.
 			</p>
 
 			<p className="mt-3">

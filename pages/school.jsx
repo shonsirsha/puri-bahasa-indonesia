@@ -1,7 +1,5 @@
 import FiftyFifty from "components/FiftyFifty";
 import Layout from "components/Layout";
-import PageDetail from "components/Activities/PageDetail";
-import ThirtyFiveSixtyFive from "components/ThirtyFiveSixtyFive";
 import AboutUsSection from "components/School/AboutUsSection";
 import HighlightSection from "components/School/HighlightSection";
 import FacilitiesSection from "components/School/FacilitiesSection";
@@ -10,12 +8,20 @@ import YogyakartaCard from "components/School/YogyakartaCard";
 
 const School = () => {
 	const fiftyFiftyContent = (
-		<p className="mt-3">
-			<strong>Puri Bahasa Indonesia</strong> prides ourselves on the warm and
-			friendly atmosphere at our school and is committed to looking after our
-			students
-			{"'"} welfare during their visit.
-		</p>
+		<div className="flex flex-col">
+			<p className="mt-3">
+				<b>Puri Bahasa Indonesia (PBI)</b> is an Indonesian School whose goal is
+				to aid foreigners to learn the Indonesian Language{" "}
+				<b>in order to truly communicate and connect with Indonesian</b> within
+				its socio-cultural setting.
+			</p>
+			<p className="mt-2">
+				<strong>Puri Bahasa Indonesia</strong> prides ourselves on the warm and
+				friendly atmosphere at our school and is committed to looking after our
+				students
+				{"'"} welfare during their visit.
+			</p>
+		</div>
 	);
 	return (
 		<Layout

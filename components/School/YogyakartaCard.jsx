@@ -3,7 +3,10 @@ import Container from "components/Container";
 
 const YogyakartaCard = () => {
 	const Card = () => (
-		<div className="w-full max-w-[860px] flex drop-shadow-xl rounded-lg bg-white flex-col md:flex-row">
+		<div
+			className="w-full max-w-[860px] flex drop-shadow-xl rounded-lg bg-white flex-col md:flex-row"
+			id="yogyakarta"
+		>
 			<div className="w-[100%] md:w-[30%] bg-no-repeat bg-[center_bottom_-120px] bg-yogyakarta rounded-tl-lg rounded-bl-lg min-h-[320px] md:bg-[center_bottom_0px]"></div>
 			<div className="w-[100%] md:w-[70%] flex flex-col p-12">
 				<h3 className="text-4xl font-bold">Yogyakarta</h3>
